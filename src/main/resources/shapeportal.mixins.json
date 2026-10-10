@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.shapeportal.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "shapeportal.refmap.json",
+  "mixins": ["EntityMixin", "NetherPortalBlockMixin", "PortalForcerMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
